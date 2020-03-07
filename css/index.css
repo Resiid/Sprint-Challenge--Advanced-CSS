@@ -159,6 +159,16 @@ table {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .home .walk {
+    margin: 1%;
+    border: 1px solid;
+    padding: 1%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+}
 .home .walk .walk-text {
   width: 50%;
 }
@@ -168,16 +178,7 @@ table {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-img {
-  width: 46%;
-  margin-left: 4%;
-}
-.home .walk .walk-img img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-.btn {
+.home .walk .walk-text .btn {
   text-align: center;
   padding: 2%;
   font-size: 1.75rem;
@@ -186,6 +187,32 @@ table {
   height: auto;
   background-color: #23293B;
   color: #F6F7F8;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    text-align: center;
+    padding: 10%;
+    font-size: 1.75rem;
+    border-radius: 3px;
+    width: 90%;
+    height: auto;
+    background-color: #23293B;
+    color: #F6F7F8;
+  }
+}
+.home .walk .walk-img {
+  width: 46%;
+  margin-left: 4%;
+}
+@media (max-width: 450px) {
+  .home .walk .walk-img {
+    width: 90%;
+  }
+}
+.home .walk .walk-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 .top-container {
   border: #F1F1F1;
