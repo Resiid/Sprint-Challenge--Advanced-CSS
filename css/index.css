@@ -177,6 +177,16 @@ table {
   height: auto;
   border-radius: 10px;
 }
+.btn {
+  text-align: center;
+  padding: 2%;
+  font-size: 1.75rem;
+  border-radius: 3px;
+  width: 25%;
+  height: auto;
+  background-color: #23293B;
+  color: #F6F7F8;
+}
 * {
   box-sizing: border-box;
 }
@@ -195,6 +205,9 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
+}
+h1 {
+  font-size: 5rem;
 }
 h2 {
   font-size: 3.2rem;
